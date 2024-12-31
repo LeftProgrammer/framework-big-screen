@@ -93,6 +93,10 @@
       "path": "packages/@core/ui-kit/popup-ui",
     },
     {
+      "name": "@vben-core/screen-ui",
+      "path": "packages/@core/ui-kit/screen-ui",
+    },
+    {
       "name": "@vben-core/shadcn-ui",
       "path": "packages/@core/ui-kit/shadcn-ui",
     },
