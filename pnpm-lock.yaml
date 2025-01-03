@@ -689,6 +689,9 @@ importers:
 
   apps/web-ele:
     dependencies:
+      '@vben-core/screen-ui':
+        specifier: workspace:*
+        version: link:../../packages/@core/ui-kit/screen-ui
       '@vben/access':
         specifier: workspace:*
         version: link:../../packages/effects/access
