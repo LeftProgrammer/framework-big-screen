@@ -4484,8 +4484,8 @@ packages:
   '@vue/devtools-shared@7.6.8':
     resolution: {integrity: sha512-9MBPO5Z3X1nYGFqTJyohl6Gmf/J7UNN1oicHdyzBVZP4jnhZ4c20MgtaHDIzWmHDHCMYVS5bwKxT3jxh7gOOKA==}
 
-  '@vue/language-core@2.1.6':
-    resolution: {integrity: sha512-MW569cSky9R/ooKMh6xa2g1D0AtRKbL56k83dzus/bx//RDJk24RHWkMzbAlXjMdDNyxAaagKPRquBIxkxlCkg==}
+  '@vue/language-core@2.1.10':
+    resolution: {integrity: sha512-DAI289d0K3AB5TUG3xDp9OuQ71CnrujQwJrQnfuZDwo6eGNf0UoRlPuaVNO+Zrn65PC3j0oB2i7mNmVPggeGeQ==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -4710,8 +4710,8 @@ packages:
     resolution: {integrity: sha512-/tfpK2A4FpS0o+S78o3YSdlqXr0MavJIDlFK3XZrlXLy7vaRXJvW5jYg3v5e/wCaF8y0IpMjkYLhoV6QqfpOgw==}
     engines: {node: '>= 14.0.0'}
 
-  alien-signals@0.4.12:
-    resolution: {integrity: sha512-Og0PgAihxlp1R22bsoBsyhhMG4+qhU+fkkLPoGBQkYVc3qt9rYnrwYTf+M6kqUqUZpf3rXDnpL90iKa0QcSVVg==}
+  alien-signals@0.2.2:
+    resolution: {integrity: sha512-cZIRkbERILsBOXTQmMrxc9hgpxglstn69zm+F1ARf4aPAzdAFYd6sBq87ErO0Fj3DV94tglcyHG5kQz9nDC/8A==}
 
   ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
@@ -9950,8 +9950,8 @@ packages:
     peerDependencies:
       vue: ^3.5.13
 
-  vue-tsc@2.2.0:
-    resolution: {integrity: sha512-gtmM1sUuJ8aSb0KoAFmK9yMxb8TxjewmxqTJ1aKphD5Cbu0rULFY6+UQT51zW7SpUcenfPUuflKyVwyx9Qdnxg==}
+  vue-tsc@2.1.10:
+    resolution: {integrity: sha512-RBNSfaaRHcN5uqVqJSZh++Gy/YUzryuv9u1aFWhsammDJXNtUiJMNoJ747lZcQ68wUQFx6E73y4FY3D8E7FGMA==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -13377,19 +13377,6 @@ snapshots:
     optionalDependencies:
       typescript: 5.7.2
 
-  '@vue/language-core@2.2.0(typescript@5.6.3)':
-    dependencies:
-      '@volar/language-core': 2.4.11
-      '@vue/compiler-dom': 3.5.13
-      '@vue/compiler-vue2': 2.7.16
-      '@vue/shared': 3.5.13
-      alien-signals: 0.4.12
-      minimatch: 9.0.5
-      muggle-string: 0.4.1
-      path-browserify: 1.0.1
-    optionalDependencies:
-      typescript: 5.6.3
-
   '@vue/reactivity@3.5.13':
     dependencies:
       '@vue/shared': 3.5.13
@@ -13622,7 +13609,7 @@ snapshots:
       '@algolia/requester-fetch': 5.18.0
       '@algolia/requester-node-http': 5.18.0
 
-  alien-signals@0.4.12: {}
+  alien-signals@0.2.2: {}
 
   ansi-align@3.0.1:
     dependencies:
