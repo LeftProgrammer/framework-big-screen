@@ -32,12 +32,30 @@ const routes: RouteRecordRaw[] = [
         component: () => import('#/views/demos/form/basic.vue'),
       },
       {
+        path: 'screen',
+        name: 'Screen',
+        redirect: '/demos/screen/card',
         meta: {
-          title: $t('demos.card'),
+          title: '大屏组件',
         },
-        name: 'BasicCard',
-        path: '/demos/screen',
-        component: () => import('#/views/demos/screen/card.vue'),
+        children: [
+          {
+            path: 'card',
+            name: 'ScreenCard',
+            component: () => import('#/views/demos/screen/card.vue'),
+            meta: {
+              title: '卡片组件',
+            },
+          },
+          {
+            path: 'echarts',
+            name: 'ScreenEcharts',
+            component: () => import('#/views/demos/screen/echarts.vue'),
+            meta: {
+              title: '图表组件',
+            },
+          },
+        ],
       },
     ],
   },

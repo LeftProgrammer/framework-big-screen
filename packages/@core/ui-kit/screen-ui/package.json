@@ -41,6 +41,11 @@
     "@vben-core/shared": "workspace:*",
     "@vben-core/typings": "workspace:*",
     "@vueuse/core": "catalog:",
+    "echarts": "catalog:",
+    "lodash.debounce": "catalog:",
     "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "catalog:"
   }
 }

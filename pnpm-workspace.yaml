@@ -43,6 +43,7 @@ catalog:
   '@types/html-minifier-terser': ^7.0.2
   '@types/jsonwebtoken': ^9.0.7
   '@types/lodash.clonedeep': ^4.5.9
+  '@types/lodash.debounce': ^4.0.9
   '@types/lodash.get': ^4.4.9
   '@types/lodash.isequal': ^4.5.8
   '@types/node': ^22.10.3
@@ -114,6 +115,7 @@ catalog:
   jsonwebtoken: ^9.0.2
   lint-staged: ^15.3.0
   lodash.clonedeep: ^4.5.0
+  lodash.debounce: ^4.0.8
   lodash.get: ^4.4.2
   lodash.isequal: ^4.5.0
   lucide-vue-next: ^0.469.0
