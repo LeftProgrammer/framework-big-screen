@@ -55,6 +55,14 @@ const routes: RouteRecordRaw[] = [
               title: '图表组件',
             },
           },
+          {
+            path: 'rolling',
+            name: 'ScreenRolling',
+            component: () => import('#/views/demos/screen/rolling.vue'),
+            meta: {
+              title: '滚动展示组件',
+            },
+          },
         ],
       },
     ],
